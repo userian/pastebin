@@ -1,0 +1,9 @@
+<html>
+<body>
+<form method="POST">
+    <textarea name="data" style="width:800px; height:400px">{% if data %}{{ data }}{% endif %}</textarea> 
+    <br>
+    <input type="submit" />
+</form>
+</body>
+</html>
